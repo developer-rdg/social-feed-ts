@@ -13,11 +13,11 @@ const posts = [
       role: "Developer",
     },
     content: [
-      { type: "paragraph", content: "Fala galeraa 👋" },
+      { type: "paragraph", content: "Fala galera 👋" },
       {
         type: "paragraph",
         content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz com React 🚀💻",
       },
       { type: "link", content: "jane.design/doctorcare" },
     ],
@@ -26,38 +26,71 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: "https://github.com/diego3g.png",
-      name: "Diego Fernandes",
-      role: "CTO Rocketseat",
+      avatarUrl: "https://github.com/john-doe.png",
+      name: "John Doe",
+      role: "Web Developer",
     },
     content: [
-      { type: "paragraph", content: "Fala galera 👋" },
+      { type: "paragraph", content: "Hey everyone! 👋" },
       {
         type: "paragraph",
-        content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+        content: "I just finished working on a new project using Vue.js 🚀💻",
       },
-      { type: "link", content: "jane.design/doctorcare" },
+      { type: "link", content: "johndoe.com/my-vue-project" },
     ],
-    publishedAt: new Date("2023-02-05 20:00:00"),
+    publishedAt: new Date("2023-02-12 10:30:00"),
   },
   {
     id: 3,
     author: {
-      avatarUrl: "https://github.com/maykbrito.png",
-      name: "Mayk Brito",
-      role: "Educator Rocketseat",
+      avatarUrl: "https://github.com/sarah-dev.png",
+      name: "Sarah Johnson",
+      role: "Frontend Developer",
     },
     content: [
-      { type: "paragraph", content: "Fala galera 👋" },
+      { type: "paragraph", content: "Hello everyone! 👋" },
+      {
+        type: "paragraph",
+        content: "Excited to share my latest React Native project with you all! 🚀💻",
+      },
+      { type: "link", content: "sarahcodes.com/react-native-app" },
+    ],
+    publishedAt: new Date("2023-03-20 15:45:00"),
+  },
+  {
+    id: 4,
+    author: {
+      avatarUrl: "https://github.com/emma-dev.png",
+      name: "Emma Thompson",
+      role: "Full Stack Developer",
+    },
+    content: [
+      { type: "paragraph", content: "Hey there! 👋" },
+      {
+        type: "paragraph",
+        content: "Just launched my new website built with Angular. Check it out! 🚀💻",
+      },
+      { type: "link", content: "emma.dev/my-angular-website" },
+    ],
+    publishedAt: new Date("2023-04-08 09:15:00"),
+  },
+  {
+    id: 5,
+    author: {
+      avatarUrl: "https://github.com/mike-dev.png",
+      name: "Mike Anderson",
+      role: "UI/UX Designer",
+    },
+    content: [
+      { type: "paragraph", content: "Hello friends! 👋" },
       {
         type: "paragraph",
         content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+          "I'm excited to showcase my latest design project using Figma. Take a look! 🚀💻",
       },
-      { type: "link", content: "jane.design/doctorcare" },
+      { type: "link", content: "mikedesigns.com/my-figma-project" },
     ],
-    publishedAt: new Date("2023-03-10 20:00:00"),
+    publishedAt: new Date("2023-05-01 14:00:00"),
   },
 ];
 
