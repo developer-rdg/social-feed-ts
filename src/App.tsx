@@ -9,7 +9,7 @@ const posts = [
     id: 1,
     author: {
       avatarUrl: "https://github.com/rodrigo-devv.png",
-      authorName: "Rodrigo Oliveira",
+      name: "Rodrigo Oliveira",
       role: "Developer",
     },
     content: [
@@ -27,7 +27,7 @@ const posts = [
     id: 2,
     author: {
       avatarUrl: "https://github.com/diego3g.png",
-      authorName: "Diego Fernandes",
+      name: "Diego Fernandes",
       role: "CTO Rocketseat",
     },
     content: [
@@ -45,7 +45,7 @@ const posts = [
     id: 3,
     author: {
       avatarUrl: "https://github.com/maykbrito.png",
-      authorName: "Mayk Brito",
+      name: "Mayk Brito",
       role: "Educator Rocketseat",
     },
     content: [
